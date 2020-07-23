@@ -17,7 +17,12 @@ export class InicioPage implements OnInit {
       icon: 'alert-outline',
       name: 'alerts',
       path: '/alerts'
-    }
+    },
+    {
+      icon: 'image-outline',
+      name: 'avatar',
+      path: '/avatar'
+    },
   ];
   constructor() { }
 
