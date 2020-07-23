@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { AlertsPageRoutingModule } from './alerts-routing.module';
+import { ComponentsModule } from '../../components/components.module';
 
 import { AlertsPage } from './alerts.page';
 
@@ -13,7 +14,8 @@ import { AlertsPage } from './alerts.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    AlertsPageRoutingModule
+    AlertsPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [AlertsPage]
 })

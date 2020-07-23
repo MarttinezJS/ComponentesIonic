@@ -1,9 +1,11 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>alerts</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header [titulo]="titulo || 'Alerts'"></app-header>
+
 
 <ion-content>
-
+    <ion-button color="primary" expand=full (click)="presentAlert()">Simple</ion-button>
+    <ion-button color="primary" expand=full (click)="presentAlertMultipleButtons()">Multiples botones</ion-button>
+    <ion-button color="primary" expand=full (click)="presentAlertConfirm()">Confirmacion</ion-button>
+    <ion-button color="primary" expand=full (click)="presentAlertPrompt()">Prompt</ion-button>
+    <ion-button color="primary" expand=full (click)="presentAlertRadio()">Select Radio</ion-button>
+    <ion-button color="primary" expand=full (click)="presentAlertCheckbox()">Select Checkbox</ion-button>
 </ion-content>
