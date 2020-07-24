@@ -23,6 +23,11 @@ export class InicioPage implements OnInit {
       name: 'avatar',
       path: '/avatar'
     },
+    {
+      icon: 'compass-outline',
+      name: 'botones y router',
+      path: '/button'
+    },
   ];
   constructor() { }
 
