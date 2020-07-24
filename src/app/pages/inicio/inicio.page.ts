@@ -33,6 +33,11 @@ export class InicioPage implements OnInit {
       name: 'targetas',
       path: '/cards'
     },
+    {
+      icon: 'checkmark-circle-outline',
+      name: 'checkbox',
+      path: '/checkbox'
+    },
   ];
   constructor() { }
 
