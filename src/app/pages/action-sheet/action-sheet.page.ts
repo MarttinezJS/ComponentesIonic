@@ -18,6 +18,7 @@ export class ActionSheetPage implements OnInit {
       header: 'Albums',
       cssClass: 'my-custom-class',
       backdropDismiss: false,
+      mode: 'ios',
       buttons: [{
         text: 'Delete',
         role: 'destructive',
