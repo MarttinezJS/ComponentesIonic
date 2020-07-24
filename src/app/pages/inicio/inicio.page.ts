@@ -48,6 +48,11 @@ export class InicioPage implements OnInit {
       name: 'fabs',
       path: '/fabs'
     },
+    {
+      icon: 'grid-outline',
+      name: 'grid',
+      path: '/grid'
+    },
   ];
   constructor() { }
 
