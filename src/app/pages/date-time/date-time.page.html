@@ -1,0 +1,16 @@
+<app-header titulo=fechas></app-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>Fecha de nacimiento</ion-list-header>
+    <ion-item>
+      <ion-label>Seleccione fecha</ion-label>
+      <ion-datetime display-format="D.MMMM.YYYY" [ngModel]="fecha.toISOString()" doneText=seleccionar cancelText=Cancelar></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Custom Date</ion-label>
+      <ion-datetime display-format="D MMMM YYYY h:mm a" [pickerOptions]="customPickerOptions" [(ngModel)]="customDate"></ion-datetime>
+    </ion-item>
+  </ion-list>
+</ion-content>
