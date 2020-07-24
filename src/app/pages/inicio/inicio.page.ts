@@ -43,6 +43,11 @@ export class InicioPage implements OnInit {
       name: 'Fechas',
       path: '/date-time'
     },
+    {
+      icon: 'color-wand-outline',
+      name: 'fabs',
+      path: '/fabs'
+    },
   ];
   constructor() { }
 
