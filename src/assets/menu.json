@@ -68,5 +68,10 @@
       "icon": "reload-outline",
       "name": "Loading",
       "path": "/loading"
+    },
+    {
+      "icon": "browsers-outline",
+      "name": "Modal",
+      "path": "/modal"
     }
 ]
