@@ -73,5 +73,10 @@
       "icon": "browsers-outline",
       "name": "Modal",
       "path": "/modal"
+    },
+    {
+      "icon": "easel-outline",
+      "name": "Popover",
+      "path": "/popover"
     }
 ]
