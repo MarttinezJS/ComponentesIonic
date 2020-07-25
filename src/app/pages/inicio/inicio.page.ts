@@ -63,6 +63,16 @@ export class InicioPage implements OnInit {
       name: 'input & forms',
       path: '/input'
     },
+    {
+      icon: 'newspaper-outline',
+      name: 'list & sliding',
+      path: '/list'
+    },
+    {
+      icon: 'reorder-four-outline',
+      name: 'reorder',
+      path: '/reorder'
+    },
   ];
   constructor() { }
 
