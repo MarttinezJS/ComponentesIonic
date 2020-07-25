@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { Componente } from 'src/app/models/Component';
 import { DataService } from '../../services/data.service';
+import { Componente } from '../../models/Component';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-inicio',
-  templateUrl: './inicio.page.html',
-  styleUrls: ['./inicio.page.scss'],
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.scss'],
 })
-export class InicioPage implements OnInit {
+export class MenuComponent implements OnInit {
 
-  componentes: Observable<Componente[]>;
   constructor(private dataService: DataService) { }
 
+  componentes: Observable<Componente[]>;
   ngOnInit() {
     this.componentes = this.dataService.getMenuOpts();
   }

@@ -1,0 +1,72 @@
+[
+    {
+      "icon": "archive-outline",
+      "name": "action sheet",
+      "path": "/action-sheet"
+    },
+    {
+      "icon": "alert-outline",
+      "name": "alerts",
+      "path": "/alerts"
+    },
+    {
+      "icon": "image-outline",
+      "name": "avatar",
+      "path": "/avatar"
+    },
+    {
+      "icon": "compass-outline",
+      "name": "botones y router",
+      "path": "/button"
+    },
+    {
+      "icon": "images-outline",
+      "name": "targetas",
+      "path": "/cards"
+    },
+    {
+      "icon": "checkmark-circle-outline",
+      "name": "checkbox",
+      "path": "/checkbox"
+    },
+    {
+      "icon": "calendar-outline",
+      "name": "Fechas",
+      "path": "/date-time"
+    },
+    {
+      "icon": "color-wand-outline",
+      "name": "fabs",
+      "path": "/fabs"
+    },
+    {
+      "icon": "grid-outline",
+      "name": "grid",
+      "path": "/grid"
+    },
+    {
+      "icon": "infinite-outline",
+      "name": "Infinite scroll",
+      "path": "/infinite-scroll"
+    },
+    {
+      "icon": "checkmark-done-outline",
+      "name": "input & forms",
+      "path": "/input"
+    },
+    {
+      "icon": "newspaper-outline",
+      "name": "list & sliding",
+      "path": "/list"
+    },
+    {
+      "icon": "reorder-four-outline",
+      "name": "reorder",
+      "path": "/reorder"
+    },
+    {
+      "icon": "reload-outline",
+      "name": "Loading",
+      "path": "/loading"
+    }
+]
