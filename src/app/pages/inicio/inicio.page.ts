@@ -73,6 +73,11 @@ export class InicioPage implements OnInit {
       name: 'reorder',
       path: '/reorder'
     },
+    {
+      icon: 'reload-outline',
+      name: 'Loading',
+      path: '/loading'
+    },
   ];
   constructor() { }
 
