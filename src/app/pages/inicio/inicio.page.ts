@@ -58,6 +58,11 @@ export class InicioPage implements OnInit {
       name: 'Infinite scroll',
       path: '/infinite-scroll'
     },
+    {
+      icon: 'checkmark-done-outline',
+      name: 'input & forms',
+      path: '/input'
+    },
   ];
   constructor() { }
 
