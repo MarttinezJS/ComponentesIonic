@@ -88,5 +88,10 @@
       "icon": "refresh-circle-outline",
       "name": "refresher",
       "path": "/refresher"
+    },
+    {
+      "icon": "search-outline",
+      "name": "searchbar",
+      "path": "/searchbar"
     }
 ]
