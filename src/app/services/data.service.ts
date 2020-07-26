@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Componente } from '../models/Component';
+import { delay } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,10 @@ export class DataService {
   }
 
   getComents() {
-    return this.http.get(this.baseURL + 'comments');
+    return this.http.get(this.baseURL + 'comments')
+    .pipe(
+      delay(1500)
+    );
   }
 
   getMenuOpts() {
