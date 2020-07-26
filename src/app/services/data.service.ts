@@ -21,4 +21,8 @@ export class DataService {
   getMenuOpts() {
     return this.http.get<Componente[]>('/assets/menu.json');
   }
+
+  getHeroes() {
+    return this.http.get<Componente[]>('/assets/superheroes.json');
+  }
 }

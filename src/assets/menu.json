@@ -93,5 +93,10 @@
       "icon": "search-outline",
       "name": "searchbar",
       "path": "/searchbar"
+    },
+    {
+      "icon": "copy-outline",
+      "name": "segment",
+      "path": "/segment"
     }
 ]
