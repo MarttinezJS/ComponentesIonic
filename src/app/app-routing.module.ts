@@ -78,6 +78,10 @@ const routes: Routes = [
   {
     path: 'barras',
     loadChildren: () => import('./pages/barras/barras.module').then( m => m.BarrasPageModule)
+  },
+  {
+    path: 'refresher',
+    loadChildren: () => import('./pages/refresher/refresher.module').then( m => m.RefresherPageModule)
   }
 ];
 

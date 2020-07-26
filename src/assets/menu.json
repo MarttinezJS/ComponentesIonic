@@ -83,5 +83,10 @@
       "icon": "ellipsis-horizontal-outline",
       "name": "Progressbar & Range",
       "path": "/barras"
+    },
+    {
+      "icon": "refresh-circle-outline",
+      "name": "refresher",
+      "path": "/refresher"
     }
 ]
