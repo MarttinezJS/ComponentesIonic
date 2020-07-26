@@ -78,5 +78,10 @@
       "icon": "easel-outline",
       "name": "Popover",
       "path": "/popover"
+    },
+    {
+      "icon": "ellipsis-horizontal-outline",
+      "name": "Progressbar & Range",
+      "path": "/barras"
     }
 ]

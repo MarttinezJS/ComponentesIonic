@@ -74,6 +74,10 @@ const routes: Routes = [
   {
     path: 'popover',
     loadChildren: () => import('./pages/popover/popover.module').then( m => m.PopoverPageModule)
+  },
+  {
+    path: 'barras',
+    loadChildren: () => import('./pages/barras/barras.module').then( m => m.BarrasPageModule)
   }
 ];
 
